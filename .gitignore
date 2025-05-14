@@ -1,0 +1,40 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.tmp
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === macOS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === PyCharm ===
+.idea/
+*.iml
+
+# === Virtual Environments ===
+venv/
+.env/
+.venv/
+
+# === CSV/Excel files ===
+*.csv
+*.xlsx
+
+*.md
+
+!blocker_types.csv
